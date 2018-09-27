@@ -40,7 +40,7 @@ PS> Get-SoguFileNames -ShowFileNames
 ```
 Displays a list of Sogu file names based on a single serial number provided by the user.
 ```
-PS>Get-SoguFileNames-CustomSerial AAAAAAAA
+PS> Get-SoguFileNames-CustomSerial AAAAAAAA
 ```
 Displays a list of Sogu file names based on a list of serial numbers provided by the user in the powershell console. 
 ```
