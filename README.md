@@ -7,6 +7,9 @@ added functionality of searching each drive from the generated file list.
 This script uses C# code to generate a list of SOGU filenames based on the algorithm used in the SOGU implant.
 The script then utilizes PowerShell to query the system for drive information and, if selected, locates any Sogu files found on disk. 
 The script can be deployed domain-wide to enumerate hosts to locate malicious files.
+
+## License
+See the [LICENSE](https://github.com/DHS-NCCIC/Sogu/blob/master/LICENSE.md) file for license rights and limitations.
                                                
 ## Commands to import this script for use                                
 To import the powershell script for use enter the following commands in the PowerShell Console 
