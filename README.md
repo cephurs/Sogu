@@ -3,7 +3,7 @@ This script generates a list of
 possible SOGU filenames based on serial numbers of active drives. It has the
 added functionality of searching each drive from the generated file list.
 
-## DESCRIPTION
+## Description
 This script uses C# code to generate a list of SOGU filenames based on the algorithm used in the SOGU implant.
 The script then utilizes PowerShell to query the system for drive information and, if selected, locates any Sogu files found on disk. 
 The script can be deployed domain-wide to enumerate hosts to locate malicious files.
@@ -33,7 +33,7 @@ SearchFiles           1. Searches the filesytem for the presence of Sogu log fil
                       3. The output hashtable separates the file information based on the presence/absence of each Sogu log on disk.
                       4. The information collected by this option can be exported to log files for review.
 ```
-## Examples:
+## Examples
 Import module for use and display a list of Sogu file names generated based on local disk serial numbers.
 ```
 PS> Get-SoguFileNames -ShowFileNames
